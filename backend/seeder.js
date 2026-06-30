@@ -21,7 +21,7 @@ async function getProduct() {
       price: 10,
       stock: 100,
       image: 'https://via.placeholder.com/300',
-      category: 'cosmetics'
+      category: 'Cosmetics'
     },
 
     { title: 'Blush',
@@ -29,7 +29,7 @@ async function getProduct() {
       price: 15,
       stock: 100,
       image: 'https://via.placeholder.com/300',
-      category: 'cosmetics'
+      category: 'Cosmetics'
     }])
         console.log('Products seeded!');
         console.log(result)
