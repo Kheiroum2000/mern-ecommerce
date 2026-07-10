@@ -17,7 +17,7 @@ return(
             <img src={product.image} alt={product.title}></img>
             <span className={styles.cat}>{product.category}</span>
             <h2 className={styles.title}>{product.title}</h2>
-            <h3 className={styles.price}>{product.price}</h3>
+            <h3 className={styles.price}>${product.price}</h3>
             <button className={styles.btn}>Buy now!</button>
 
         </div>
